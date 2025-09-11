@@ -1,7 +1,0 @@
-notebook
-jupyterlab
-ipykernel
-pandas
-numpy
-matplotlib
-scikit-learn
