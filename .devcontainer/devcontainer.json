@@ -1,5 +1,15 @@
 {
-  "name": "Python & Jupyter",
+  "name": "Python & Packages",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "pip install notebook jupyterlab ipykernel"
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers"
+      ]
+    }
+  }
 }
